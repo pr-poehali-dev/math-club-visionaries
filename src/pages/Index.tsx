@@ -33,7 +33,8 @@ export default function Index() {
 
       {/* Hero Section */}
       <section id="main" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background to-background"></div>
+        <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(/img/b396dbad-2a53-4b61-8110-dec382fdb1e0.jpg)'}}></div>
+        <div className="absolute inset-0 bg-primary/80"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="font-bebas text-6xl md:text-8xl lg:text-9xl mb-6 tracking-wider">
             ВИЗИОНЕРЫ
